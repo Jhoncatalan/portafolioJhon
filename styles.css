@@ -211,7 +211,7 @@ img {
     gap: 20px;
 }
 .contenido-texto {
-    width: 50%;
+    width: 40%;
     color: var(--blanco-importante);
     display: flex;
     flex-direction: column;
@@ -579,7 +579,7 @@ img {
     .contenido-iconos {
         width: 100%;
         margin: 0;
-        margin-top: 60px;
+        
     }
 }
 @media (max-width: 531px) {
@@ -587,6 +587,24 @@ img {
     .contenido-texto h1 span {
         font-size: 28px;
     }
+}
+
+@media (max-width: 450px) {
+    .iconos:nth-child(1) {
+        margin-top: 1px;
+    }
+}
+
+.logos-tecn {
+    display: flex;
+    gap: 5px;
+    margin-bottom: 8px;
+}
+.logos-tecn img {
+   width: 15px;
+}
+.logos-tecn .boostrap {
+   width: 20px;
 }
 
 
